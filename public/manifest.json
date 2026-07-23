@@ -5,14 +5,20 @@
   "icons": [
     {
       "src": "/pwa-icon.svg",
-      "sizes": "512x512",
+      "sizes": "192x192 512x512",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
   ],
   "start_url": "/",
-  "background_color": "#0b132b",
-  "theme_color": "#0b132b",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
   "display": "standalone",
   "orientation": "portrait"
 }

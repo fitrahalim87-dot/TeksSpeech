@@ -92,17 +92,27 @@ export const LicenseLockScreen: React.FC<LicenseLockScreenProps> = ({ onActivate
 
       <div className="w-full max-w-xl relative z-10 space-y-8 animate-fade-in my-8">
         {/* Brand Header */}
-        <div className="text-center space-y-2">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-xs font-semibold text-amber-400 tracking-wider uppercase backdrop-blur-md">
-            <Sparkles className="w-3.5 h-3.5" />
-            Textspeech by AniKi
+        <div className="text-center space-y-3">
+          <div className="inline-flex items-center justify-center">
+            <img 
+              src="/pwa-icon.svg" 
+              alt="Textspeech Logo" 
+              className="w-16 h-16 rounded-2xl shadow-xl shadow-amber-400/20 border border-amber-400/40 object-cover"
+              referrerPolicy="no-referrer"
+            />
           </div>
-          <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
-            Gudang Konten <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500">ANI KI</span>
-          </h1>
-          <p className="text-slate-400 text-xs sm:text-sm tracking-widest font-mono uppercase">
-            Voice Generator & Video Creator AI Engine
-          </p>
+          <div>
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-xs font-semibold text-amber-400 tracking-wider uppercase backdrop-blur-md">
+              <Sparkles className="w-3.5 h-3.5" />
+              Textspeech by AniKi
+            </div>
+            <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight mt-2">
+              Gudang Konten <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500">ANI KI</span>
+            </h1>
+            <p className="text-slate-400 text-xs sm:text-sm tracking-widest font-mono uppercase mt-1">
+              Voice Generator & Video Creator AI Engine
+            </p>
+          </div>
         </div>
 
         {/* Main Card */}

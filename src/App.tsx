@@ -403,8 +403,13 @@ export default function App() {
           <header className="sticky top-0 z-40 bg-[#0a1224]/85 backdrop-blur-md border-b border-yellow-400/20 shadow-lg shadow-black/40">
             <div className="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-gradient-to-br from-yellow-400 via-amber-400 to-amber-500 rounded-xl flex items-center justify-center shadow-lg shadow-yellow-400/25 border border-yellow-300/40">
-                  <Volume2 className="text-slate-950 w-6 h-6 font-bold" />
+                <div className="relative">
+                  <img 
+                    src="/pwa-icon.svg" 
+                    alt="Textspeech Logo" 
+                    className="w-11 h-11 rounded-xl shadow-lg shadow-yellow-400/20 border border-yellow-400/30 object-cover" 
+                    referrerPolicy="no-referrer"
+                  />
                 </div>
                 <div>
                   <h1 className="text-xl font-black tracking-tighter text-white uppercase flex items-center gap-1.5 flex-wrap">
